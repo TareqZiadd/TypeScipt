@@ -308,6 +308,11 @@ Union
 
 
 Function in TypeScript
+-----------------------------------------------------------------------------
+
+function {functionName} ({variable}:{dataType}){
+
+}
 ---------------------------------------------------------------
 //getName
 function getName  (name:string) {
@@ -320,15 +325,29 @@ function getNamee  (name:string) {
 //console.log(name);}
 //always console.log with (VOID)
 // // // // // // // // // / // // // // // // // // // //
-function sum(num1:number,num2:number) {
-console.log(num1+num2)
+//Void
+function sum1 (){
+  console.log (2+2);
 }
-function def(num1:number,num2:number):number{
-return num1+num2;
+
+//Void
+function sum2 () :void{
+  console.log (2+2);
 }
-//return always with string or datatype not (void)
 
------------------------------------------------------
+function sum3(a: number, b: number): void { 
+  console.log(a + b);
+}
 
+let x=  function sum4(a: number, b: number): void { 
+  console.log(a + b);
+}
 
+function myFunc(myVar1:string,myVar2?:string) :string {
+  return(myVar1);
+  }
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
