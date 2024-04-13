@@ -343,9 +343,17 @@ let x=  function sum4(a: number, b: number): void {
   console.log(a + b);
 }
 
+
+////////////////////////////////////////////////////////
+optional in typeScript
+//////////////////////////////////////////////////////////
 function myFunc(myVar1:string,myVar2?:string) :string {
   return(myVar1);
   }
+
+function myFunc(myVar1:string,myVar2:model?){
+return(myVar1 + (myVar2 || ""));
+}
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
