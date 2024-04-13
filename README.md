@@ -301,5 +301,34 @@ console.log(WeekDays[3]); // Output: Wednesday (اسم يوم الأربعاء)
 في الختام، تعد ENUMs أداة قوية وفعالة لتعريف مجموعات محددة من القيم الثابتة في TypeScript. تُستخدم بشكل شائع لتحسين قابلية القراءة والوقاية من الأخطاء وجعل الكود أكثر قابلية للصيانة، وتوفر تجربة IntelliSense غنية للمطورين.
 ---------------------------------------------------------
 Union
+---------------------------------------------------------
 
-------------------------------------------------
+
+
+
+
+Function in TypeScript
+---------------------------------------------------------------
+//getName
+function getName  (name:string) {
+console.log(name);}
+//or
+function getNamee  (name:string) {
+  console.log(name);}
+  // this is false
+//function getNamme  (name:string):string {
+//console.log(name);}
+//always console.log with (VOID)
+// // // // // // // // // / // // // // // // // // // //
+function sum(num1:number,num2:number) {
+console.log(num1+num2)
+}
+function def(num1:number,num2:number):number{
+return num1+num2;
+}
+//return always with string or datatype not (void)
+
+-----------------------------------------------------
+
+
+
